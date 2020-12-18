@@ -1,0 +1,56 @@
+/*#63FF7E  cor do tema do login*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #63FF7E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    width: 60%;
+    height: 70vh;
+    margin: 5% 0;
+    border-radius: 10px;
+}
+
+.container-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.container-login input {
+    text-align: center;
+    justify-items: center;
+    width: 80%;
+    padding: 8px 0px;
+    margin: 8px 0;
+    border: 1px solid #63FF7E;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.container-login input::placeholder {
+    color: #333333;
+}
+
+input.button-login {
+    background-color: #63FF7E;
+}
+
+.logo {
+    width: 20vw;
+    height: 50vh;
+}
